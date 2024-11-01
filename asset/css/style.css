@@ -1,0 +1,145 @@
+.d-none{
+	display: none;
+}
+.send-test-webhook-msg-success{
+	background-color: #e0f9e6 !important;
+	border-left: 4px solid #0f0;
+	font-size: 16px;
+	color: #077507 !important;
+	padding: 5px;
+}
+.send-test-webhook.btn.btn-info {
+    padding: 10px;
+    color: #fff;
+    font-weight: 703;
+    text-decoration: none;
+    background-color: #fff;
+    background: #17a2b8;
+}
+.site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) {
+	background: #17a2b8 !important;
+}
+.send-test-webhook-msg-error{
+	background-color: #f9e5e0 !important;
+	border-left: 4px solid #f00;
+	font-size: 16px;
+	color: #f00 !important;
+	padding: 5px;
+}
+#webhook_send_test{
+	display: inline-block;
+}
+.ets-webhook_active-switch{
+	width: 50%;
+	display: inline-block;
+}
+.ets-webhook_active-switch .toggle-group{
+	left: 0 !important;
+}
+.ets-activ-onoff-switch {
+  position: relative;
+  width: 60px;
+  display: inline-block;
+  font-size: 12px;
+}
+.ets-activ-onoff-switch .ets-activ-onoff-switch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid hsl(0, 0%, 90%);
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  margin: 0;
+  border: 2px solid #999999;
+}
+.ets-activ-onoff-switch .ets-activ-onoff-switch-inner {
+	width: 200%;
+	margin-left: -100%;
+	-webkit-transition: margin 0.15s ease-in-out;
+	-o-transition: margin 0.15s ease-in-out;
+	-moz-transition: margin 0.15s ease-in-out;
+	transition: margin 0.15s ease-in-out;
+}
+.ets-activ-onoff-switch .ets-activ-onoff-switch-inner:before,
+.ets-activ-onoff-switch .ets-activ-onoff-switch-inner:after {
+	float: left;
+	width: 50%;
+	height: 24px;
+	padding: 0;
+	line-height: 30px;
+	font-size: 10px;
+	color: hsl(0, 0%, 100%);
+	font-weight: normal;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ets-activ-onoff-switch .ets-activ-onoff-switch-inner:before {
+	content: "ON";
+	padding-left: 10px;
+	background-color: #17a2b8;
+	color: #fff;
+}
+.ets-activ-onoff-switch .ets-activ-onoff-switch-inner:after {
+	content: "OFF";
+	padding-right: 5px;
+	background-color:#f86c6b;
+	color: #fff;
+	text-align: right;
+}
+.ets-activ-onoff-switch .ets-activ-onoff-switch-switch {
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	background:#fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 7px;
+	bottom: 0;
+	right: 40px;
+	-webkit-transition: right 0.15s ease-in-out;
+	-o-transition: right 0.15s ease-in-out;
+	-moz-transition: right 0.15s ease-in-out;
+	transition: right 0.15s ease-in-out;
+}
+.toggle-group {
+	position: relative;
+	height: 27px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	top: 50%;
+	left: 20px;
+	margin-top: -13.5px;
+}
+.toggle-group input[type="checkbox"] {
+  position: absolute;
+  left: 10px;
+}
+.toggle-group input[type="checkbox"]:checked ~ .ets-activ-onoff-switch .ets-activ-onoff-switch-label .ets-activ-onoff-switch-inner {
+  margin-left: 0;
+}
+.toggle-group input[type="checkbox"]:checked ~ .ets-activ-onoff-switch .ets-activ-onoff-switch-label .ets-activ-onoff-switch-switch {
+  right: 5px;
+}
+.toggle-group input[type="checkbox"]:focus ~ .ets-activ-onoff-switch {
+  outline: thin dotted #333;
+  outline: 0;
+}
+.toggle-group label {
+	position: absolute;
+	cursor: pointer;
+	padding-left: 65px !important;
+	display: inline-block;
+	text-align: left;
+	line-height: 24px;
+	width: 100%;
+	z-index: 1;
+	height: 24px;
+	font-weight: 200;
+} 
+.ets-active-label{
+	align-self: center;
+} 
